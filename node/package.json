@@ -1,0 +1,48 @@
+{
+  "name": "system-detective",
+  "version": "0.0.0",
+  "description": "A system detective for your server to find out evils",
+
+  "author": {
+    "name": "Felix Liu",
+    "email": "lyfeyaj@gmail.com",
+    "url": "lyfeyaj.com"
+  },
+  "repository": "lyfeyaj/system-detective",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "system-detective",
+    "system",
+    "detective",
+    "server",
+    "security",
+    "safe",
+    "hack",
+    "auth",
+    "detect",
+    "evils"
+  ],
+  "dependencies": {
+    "meow": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "system-detective": "cli.js"
+  }
+}
