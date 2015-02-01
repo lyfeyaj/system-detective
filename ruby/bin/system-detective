@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+begin
+  require 'system-detective'
+end
+
+SystemDetective::Cli.run!
