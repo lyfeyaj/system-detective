@@ -1,14 +1,17 @@
 {
   "name": "system-detective",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A system detective for your server to find out evils",
 
   "author": {
     "name": "Felix Liu",
     "email": "lyfeyaj@gmail.com",
-    "url": "lyfeyaj.com"
+    "url": "http://lyfeyaj.com"
   },
-  "repository": "lyfeyaj/system-detective",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lyfeyaj/system-detective.git"
+  },
   "license": "MIT",
   "files": [
     "index.js",
