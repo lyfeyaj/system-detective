@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-begin
-  require 'system-detective'
-end
+require 'system-detective/cli'
 
-SystemDetective::Cli.run!
+SystemDetective::Cli.run ARGV
